@@ -1,0 +1,166 @@
+*{ margin: 0;
+box-sizing: border-box;
+font-family: "Cairo", sans-serif;}
+svg{height: 14px;}
+#header{ height: 40px;
+background-color: #F5F5F5;
+display: flex;}
+
+#header-left svg{height: 15px;
+padding-left: 375.5px;}
+
+#header-right{display: flex;
+  padding-left: 370px;}
+
+#face>svg{ height: 14px;
+padding-right: 15px;}
+
+#tw>svg{height: 14px;
+  padding-right: 15px}
+
+#in>svg{height: 14px;
+  padding-right: 15px}
+
+#pint>svg{padding-right: 15px}
+
+#use>svg{padding-right: 6px;
+padding-left: 30px;}
+
+#main{ display:grid;
+grid-template-columns: 1.3fr 1.3fr 1fr 1.3fr 1.3fr 1.3fr;
+grid-template-rows: 80px 80px 431px 271px;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;}
+
+#main >div {}
+
+#coracao{padding-right: 15px}
+
+#sacola{padding-right: 15px}
+
+#logo{ grid-column: 2;
+text-align: center;}
+
+#put{ width: 40%;
+height: 50px;}
+
+#nav{ grid-column: 3/6;
+grid-row-end: span 2;}
+
+#menu{grid-column: 20;
+grid-row: 2/4;}
+
+#busca{grid-column: 3/6;
+grid-column: 2;}
+
+.ul{font-size: 16px;
+color: #1c1c1c;
+line-height: 39px;
+display: block;
+font-weight: 400; padding-top: 35px;}
+
+.li{font-weight: 400;}
+
+#banner{grid-column: 3/6;
+grid-row: 3;}
+
+#pro1{grid-row: 4;
+grid-column: 2;}
+
+#pro2{grid-row: 4;
+grid-column: 3;}
+
+#pro3{grid-row: 4;
+grid-column: 4;}
+
+#pro4{grid-row: 4;
+grid-column: 5;}
+
+#nav01{display: flex;}
+
+#nav02{font-weight: 900;}
+
+.site-btn{font-size: 14px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 13px 30px 12px;
+  background: #7fad39;
+  border: none;}
+
+#nav01>ul{padding: 0;
+display: flex;
+justify-content: space-around;
+width: 100%;}
+
+li{list-style: none;
+font-weight: 900;}
+
+#busca{background: #7fad39;
+position: relative ;
+padding: 10px 25px 10px 40px;
+cursor: pointer;
+font-weight: 900;
+font-size: 18px;
+font-weight: 700;
+height: 70%;}
+
+#coracao{height: 18px;}
+
+#sacola{height: 18px;}
+
+#banner{background-color:#F5F5F5 ;}
+
+#banner>span{font-weight: 900;
+color: #7fad39;}
+
+#banner>h2{font-size: 46px;
+color: #252525;
+line-height: 52px;
+font-weight: 700;
+margin: 10px 0;
+font-weight: 900;
+padding-top: 45px;}
+
+#banner{background-image: url(https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg.webp);}
+
+#pro1{background-image: url(file:///H:/DISPLAY_GRID/cat-1.jpg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;}
+
+#pro2{background-image: url(file:///H:/DISPLAY_GRID/cat-2.jpg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;}
+
+#pro3{background-image: url(file:///H:/DISPLAY_GRID/cat-3.jpg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;}
+
+#pro4{background-image: url(file:///H:/DISPLAY_GRID/cat-4.jpg.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;}
+
+#text>h1{text-align: center;
+  font-weight: 900}
+
+#text2{text-align: center;}
+
+#produtos{display: grid;
+grid-template-columns: 1.3fr 1.3fr 1fr 1.3fr 1.3fr 1.3fr;
+grid-template-rows: 300px 100px 300px 100px;}
+
+.frutas{text-align: center;
+padding-top: 15px;}
+
+#img{text-align: center;
+padding-top: 30px;}
+#img01{
+  margin-right: 20px;
+}
